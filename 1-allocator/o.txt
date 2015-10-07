@@ -1,0 +1,5914 @@
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+[       OK ] Allocator.AllocInRange (1 ms)
+[ RUN      ] Allocator.AllocReadWrite
+[       OK ] Allocator.AllocReadWrite (0 ms)
+[ RUN      ] Allocator.AllocNoMem
+[       OK ] Allocator.AllocNoMem (1 ms)
+[ RUN      ] Allocator.AllocReuse
+allocator_test.cpp:112: Failure
+Value of: nullptr
+  Actual: 8-byte object <00-00 00-00 00-00 00-00>
+Expected: ptrs[1].get()
+Which is: 0x63fb80
+[  FAILED  ] Allocator.AllocReuse (15 ms)
+[ RUN      ] Allocator.DefragMove
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:180: Failure
+Value of: moved
+  Actual: false
+Expected: true
+[  FAILED  ] Allocator.DefragMove (14 ms)
+[ RUN      ] Allocator.DefragMoveTwice
+[       OK ] Allocator.DefragMoveTwice (5 ms)
+[ RUN      ] Allocator.DefragAvailable
+[       OK ] Allocator.DefragAvailable (10 ms)
+[ RUN      ] Allocator.ReallocFromEmpty
+g++ -O1 -g -std=c++11 -o allocator_test allocator.cpp allocator_test.cpp  -I../thirdparty ../thirdparty/gtest/gtest-all.cc ../thirdparty/gtest/gtest_main.cc -lpthread
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+[       OK ] Allocator.AllocInRange (0 ms)
+[ RUN      ] Allocator.AllocReadWrite
+[       OK ] Allocator.AllocReadWrite (1 ms)
+[ RUN      ] Allocator.AllocNoMem
+[       OK ] Allocator.AllocNoMem (0 ms)
+[ RUN      ] Allocator.AllocReuse
+allocator_test.cpp:112: Failure
+Value of: nullptr
+  Actual: 8-byte object <00-00 00-00 00-00 00-00>
+Expected: ptrs[1].get()
+Which is: 0x63fb80
+[  FAILED  ] Allocator.AllocReuse (23 ms)
+[ RUN      ] Allocator.DefragMove
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:180: Failure
+Value of: moved
+  Actual: false
+Expected: true
+[  FAILED  ] Allocator.DefragMove (14 ms)
+[ RUN      ] Allocator.DefragMoveTwice
+[       OK ] Allocator.DefragMoveTwice (6 ms)
+[ RUN      ] Allocator.DefragAvailable
+[       OK ] Allocator.DefragAvailable (9 ms)
+[ RUN      ] Allocator.ReallocFromEmpty
+allocator_test.cpp:259: Failure
+Expected: (p.get()) != (nullptr), actual: NULL vs 8-byte object <00-00 00-00 00-00 00-00>
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+[       OK ] Allocator.AllocInRange (0 ms)
+[ RUN      ] Allocator.AllocReadWrite
+[       OK ] Allocator.AllocReadWrite (0 ms)
+[ RUN      ] Allocator.AllocNoMem
+[       OK ] Allocator.AllocNoMem (1 ms)
+[ RUN      ] Allocator.AllocReuse
+allocator_test.cpp:112: Failure
+Value of: nullptr
+  Actual: 8-byte object <00-00 00-00 00-00 00-00>
+Expected: ptrs[1].get()
+Which is: 0x63fb80
+[  FAILED  ] Allocator.AllocReuse (25 ms)
+[ RUN      ] Allocator.DefragMove
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:166: Failure
+Value of: r.second
+  Actual: false
+Expected: true
+allocator_test.cpp:180: Failure
+Value of: moved
+  Actual: false
+Expected: true
+[  FAILED  ] Allocator.DefragMove (25 ms)
+[ RUN      ] Allocator.DefragMoveTwice
+[       OK ] Allocator.DefragMoveTwice (10 ms)
+[ RUN      ] Allocator.DefragAvailable
+[       OK ] Allocator.DefragAvailable (16 ms)
+[ RUN      ] Allocator.ReallocFromEmpty
+allocator_test.cpp:259: Failure
+Expected: (p.get()) != (nullptr), actual: NULL vs 8-byte object <00-00 00-00 00-00 00-00>
+g++ -O1 -g -std=c++11 -o allocator_test allocator.cpp allocator_test.cpp  -I../thirdparty ../thirdparty/gtest/gtest-all.cc ../thirdparty/gtest/gtest_main.cc -lpthread
+g++ -O1 -g -std=c++11 -o allocator_test allocator.cpp allocator_test.cpp  -I../thirdparty ../thirdparty/gtest/gtest-all.cc ../thirdparty/gtest/gtest_main.cc -lpthread
+./allocator_test
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Allocator
+[ RUN      ] Allocator.AllocInRange
+[       OK ] Allocator.AllocInRange (0 ms)
+[ RUN      ] Allocator.AllocReadWrite
+[       OK ] Allocator.AllocReadWrite (0 ms)
+[ RUN      ] Allocator.AllocNoMem
+[       OK ] Allocator.AllocNoMem (1 ms)
+[ RUN      ] Allocator.AllocReuse
+[       OK ] Allocator.AllocReuse (27 ms)
+[ RUN      ] Allocator.DefragMove
+allocator_test.cpp:180: Failure
+Value of: moved
+  Actual: false
+Expected: true
+[  FAILED  ] Allocator.DefragMove (24 ms)
+[ RUN      ] Allocator.DefragMoveTwice
+[       OK ] Allocator.DefragMoveTwice (14 ms)
+[ RUN      ] Allocator.DefragAvailable
+allocator_test.cpp:245: Failure
+Value of: isDataOk(p, size)
+  Actual: false
+Expected: true
+[  FAILED  ] Allocator.DefragAvailable (20 ms)
+[ RUN      ] Allocator.ReallocFromEmpty
+allocator_test.cpp:259: Failure
+Expected: (p.get()) != (nullptr), actual: NULL vs 8-byte object <00-00 00-00 00-00 00-00>
