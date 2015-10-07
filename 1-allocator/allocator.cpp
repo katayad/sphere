@@ -138,9 +138,6 @@ void Allocator::defrag()
         //Pointer b = *it;
         it->it = last;
         last += i;
-        //std::cerr << last << " ";
-        //p.insert(b);
-        //print();
     }
      //std::cerr << std::endl;
 }
